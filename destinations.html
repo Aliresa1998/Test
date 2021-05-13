@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Destinations</title>
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <style>
+     #more {display: none;}
+     #more1 {display: none;}
+     #more2 {display: none;}
+    </style>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+            }
+        }
+        function myFunction1() {
+            var dots = document.getElementById("dots1");
+            var moreText = document.getElementById("more1");
+            var btnText = document.getElementById("myBtn1");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+            }
+        }
+        function myFunction2() {
+            //console.log("Hello")
+            var dots = document.getElementById("dots2");
+            var moreText = document.getElementById("more2");
+            var btnText = document.getElementById("myBtn2");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <img class="logo" src="./assets/img/logo.png" alt="logo">
+                </a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="active" href="destinations.html">Destinations</a>
+            </li>
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="container mb-4">
+        <h1 class="text-center mb-1 mt-4">Destinations</h1>
+        <span class="text-center d-block mb-3">looking for a place to visit , find it here.</span>
+        <div class="gallery">
+            <div class="card p-1" >
+                <div class="card-body">
+                    <img src="./assets/img/royal-theatre/newcatsle-theatre-royal-.jpg"
+                         alt="Royal Theatre">
+                    <h4 class="text-center mt-2">Royal Theatre</h4>
+                    <p class="p-1">
+                       The iconic Theatre Royal Newcastle is one of the finest and most historic theatres in the UK.<span id="dots">...</span><span id="more"> It is one of only nine Grade 1 Listed theatres in England. The Theatre Royal Newcastle opened on Drury Lane off Mosley Street in 1788. In February 1837, the Theatre moved to Grey Street built in February 1837. The Royal Shakespeare Company (RSC) has been performing at Theatre Royal since 1977. Granted its Royal licence by King George III .
+                    </span><button style="background-color:#fff;border:0px;color:#13b0cf" onclick="myFunction()" id="myBtn"> Read more </button></p>
+                    
+                    <div class="text-center mt-1">
+                        <a href="blog.html#post-1" class="btn btn-primary d-block mb-1">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-1">
+                <div class="card-body">
+                    <img src="./assets/img/millennium-bridge/c5bb47eac2c53b9b3420d73043a37277.jpg"
+                         alt="Millennium Bridge">
+                    <h4 class="text-center mt-2">Millennium Bridge</h4>
+                    <p class="p-1">
+                          The Gateshead Millennium Bridge is a pedestrian and cyclist tilt bridge spanning the <span id="dots1">...</span><span id="more1"> River Tyne between the Gateshead arts quarter on the south bank and the Quayside of Newcastle upon Tyne on the north bank.The bridge is sometimes referred to as the 'Blinking Eye Bridge' or the 'Winking Eye Bridge' due to its shape and its tilting method.
+                    </span><button style="background-color:#fff;border:0px;color:#13b0cf" onclick="myFunction1()" id="myBtn1"> Read more </button></p>
+                    <div class="text-center mt-1">
+                        <a href="blog.html#post-2" class="btn btn-primary d-block mb-1">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-1">
+                <div class="card-body">
+                    <img src="./assets/img/angel-of-the-north/Chronicle_Take_Your_Pic_2015361518392612604836_MG_2613-2JPG.jpg"
+                         alt="Angel Of The North">
+                    <h4 class="text-center mt-2">Angel Of The North</h4>
+                    <p class="p-1">
+                        It is a part of Gateshead’s identity as the statue of liberty to the New York. It is <span id="dots2">...</span><span id="more2"> the most recognisable public art that has been ever produced. Angel of the North is one of the Uk's best known art in public places.Antony Gormley's imposing 20-m figure is located near Gateshead in Tyne and Wear, England, and known locally as 'the Rusty Flasher'. The design of the 200-tonne Angel was inspired by the North East's shipbuilding heritage, with her ribs mirroring the inside of a ship's hull.
+                    </span><button style="background-color:#fff;border:0px;color:#13b0cf" onclick="myFunction2()" id="myBtn2"> Read more </button></p>
+                    <div class="text-center mt-1">
+                        <a href="blog.html#post-4" class="btn btn-primary d-block mb-1">View</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="pagination text-center mt-3">
+            <ul>
+                <li>
+                    <a href="#"><</a>
+                </li>
+                <li>
+                    <a href="#" class="active">1</a>
+                </li>
+
+                <li>
+                    <a href="#">></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer class="pb-5">
+    <div class="text-center">
+        <h5 class="text-white mb-3 mt-3">Site</h5>
+        <ul>
+            <li class="mb-1">
+                <a href="destinations.html">Destinations</a>
+            </li>
+            <li class="mb-1">
+                <a href="blog.html">Blog</a>
+            </li>
+            <li class="mb-1">
+                <a href="about.html">About</a>
+            </li>
+            <li class="mb-1">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="text-center">
+        <h5 class="text-white mb-3 mt-3">Services</h5>
+        <ul>
+            <li class="mb-1">
+                <a href="#">Tours</a>
+            </li>
+            <li class="mb-1">
+                <a href="#">Hotels</a>
+            </li>
+            <li class="mb-1">
+                <a href="#">Tickets</a>
+            </li>
+            <li class="mb-1">
+                <a href="#">Festivals</a>
+            </li>
+        </ul>
+    </div>
+    <div class="text-center">
+        <h5 class="text-white mb-3 mt-3">Follow us</h5>
+        <ul>
+            <li class="mb-1 d-inline-block">
+                <a href="#">
+                    <img width="25" height="25" src="./assets/img/instagram.png" alt="instagram">
+                </a>
+            </li>
+            <li class="mb-1 d-inline-block">
+                <a href="#">
+                    <img width="25" height="25" src="./assets/img/twitter.png" alt="twitter">
+                </a>
+            </li>
+            <li class="mb-1 d-inline-block">
+                <a href="#">
+                    <img width="25" height="25" src="./assets/img/facebook.png" alt="facebook">
+                </a>
+            </li>
+            <li class="mb-1">
+                <span class="mr-1 text-white">Tel:</span><a href="tel:123456789">+44 123 457 987</a>
+            </li>
+            <li class="mb-1">
+                <span class="mr-1 text-white">Address:</span>
+                <address class="d-inline-block text-white">your address</address>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
