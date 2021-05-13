@@ -1,0 +1,26 @@
+:root {
+    --bg-blue : #0aa1d3;
+    --body-bg-color : #fff;
+    --body-color : #333333;
+    --navbar-bg-color : #fff;
+    --nav-link-color : #333333;
+    --nav-link-hover-color : #0aa1d3;
+    --nav-link-hover-border-bottom-color : #d70d53;
+    --footer-bg-color : #262626;
+    --btn-primary-color: #fff;
+    --btn-primary-bg-color: #12accb;
+    --btn-secondary-color: #fff;
+    --btn-secondary-bg-color:  #d70d53;
+    --card-boxshadow-color : #eeeeee;
+    --card-border-color : #eeeeee;
+    --footer-a-color: #ffffff;
+    --form-control-border-color: #eee;
+    --pagination-li-border-color: #ccc;
+    --pagination-a-color: #333;
+    --pagination-active-bg-color: #0aa1d3;
+    --pagination-active-color : #fff;
+    --sidebar-a-color : #333333;
+    --sidebar-a-hover-color: #0aa1d3;
+    --sidebar-a-hover-bg-color: #f8f8f8;
+    --text-grey-color : #333333;
+}
